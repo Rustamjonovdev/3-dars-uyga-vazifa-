@@ -1,0 +1,66 @@
+body{
+    /* background-color: black; */
+}
+
+.day{
+    display: flex;
+}
+.square{
+    background-image: url(https://images.unsplash.com/photo-1604725333736-1f962a6218d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwc3Vuc2V0fGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    /* size: 1000%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightblue;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 400px auto;
+    background-color: lightcoral;
+    color: #fff;
+    position: absolute;
+    left: 550px;
+    top: -250px;
+}
+
+.time{
+    margin-top: 55px;
+    display: block;
+}
+
+.date{
+    display: block;
+}
+
+.morning{
+    background-color: rgb(255, 69, 0);
+    display: flex;
+}
+
+.moon{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40%;
+    margin-left: 25px;
+    box-shadow: 5px 10px 18px rgb(255, 255, 255);
+}
+
+.afternoon{
+    background-color: rgb(255, 69, 0);
+    display: flex;
+}
+
+
+
+.night{
+    background-color: rgb(7, 7, 64);
+}
